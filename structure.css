@@ -1,0 +1,150 @@
+main {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.links {
+    margin-left: 30px;
+}
+
+li:hover {
+    color: darkslategrey;
+}
+
+
+a.button {
+    padding: 8px 20px;
+    background-color: darkslategrey;
+    color: white;
+    border: 1px solid gray;
+}
+
+a.button:hover {
+    background-color: darkseagreen;
+    color: black;
+
+}
+
+a.title {
+    color: black;
+}
+
+a.title:hover {
+    color: darkslategrey;
+}
+
+#container {
+    width: 400px;
+    margin: 20px auto 0;
+}
+
+form {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#container h1 {
+    width: 38%;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+input[type=text], input[type=password], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    background-color: darkslategray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: darkseagreen;
+    color: black;
+}
+
+div.listCocktails {
+    margin: 18px 300px;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+div.listCocktailsDetail {
+    margin: 18px 200px;
+    padding: 15px;
+    text-align: justify;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+strong {
+    color: darkslategrey;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h5 {
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.back {
+    margin-left: 100px;
+    float: left;
+    font-size: larger;
+    padding: 1px 15px;
+}
+
+p.titreModif {
+    font-weight: bold;
+    color: darkslategrey;
+    border: black 1px solid;
+}
+
+.listeAliments {
+    color: black;
+}
+
+.listeAliments:hover {
+    color: green;
+}
+
+td {
+    border: 1px solid black;
+    width: 500px;
+}
+
+.tableauAliments {
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+
+th {
+    border: 1px solid black;
+    background-color: darkslategrey;
+    color: white;
+    padding: 8px;
+}
+
+table tr:nth-child(odd){
+    background-color: #cde3cd;
+}
